@@ -5,7 +5,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from utils import config
 
 
-class TestPropertyAPI:
+class Test_propertyNAME_txt:
 
     def test_getMolecularWeight_cid(self):
         response = requests.get(f"{config.BASE_URL}/compound/name/water/property/MolecularWeight/txt")

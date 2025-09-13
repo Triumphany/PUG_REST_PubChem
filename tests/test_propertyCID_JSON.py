@@ -5,7 +5,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from utils import config
 
 
-class TestPropertyAPI:
+class Test_propertyCID_JSON:
 
     def test_getMolecularWeight_cid(self):
         response = requests.get(f"{config.BASE_URL}/compound/cid/2244/property/MolecularWeight/JSON")

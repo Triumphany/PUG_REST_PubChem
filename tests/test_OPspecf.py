@@ -5,7 +5,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from utils import config
 
 
-class TestPropertyAPI:
+class Test_OPspecf:
     def test_check_compoundOP(self):
         operation_specificationns = [
     "record",
