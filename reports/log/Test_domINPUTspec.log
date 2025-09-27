@@ -1,0 +1,31 @@
+2025-09-26 12:22:08 - INFO - Test_domINPUTspec - Checking compound API with CID 2244
+2025-09-26 12:22:10 - INFO - Test_domINPUTspec - Compound API (CID 2244) : PASSED
+2025-09-26 12:22:10 - INFO - Test_domINPUTspec - Checking substance API with SID 12345
+2025-09-26 12:22:11 - INFO - Test_domINPUTspec - Substance API (SID 12345) : PASSED
+2025-09-26 12:22:11 - INFO - Test_domINPUTspec - Checking assay API with AID 743122
+2025-09-26 12:22:43 - INFO - Test_domINPUTspec - Checking gene API with GeneID 7157
+2025-09-26 12:22:45 - INFO - Test_domINPUTspec - Gene API (GeneID 7157) : PASSED
+2025-09-26 12:22:45 - INFO - Test_domINPUTspec - Checking protein API with accession P53_HUMAN
+2025-09-26 12:23:08 - ERROR - Test_domINPUTspec - Protein API (P53_HUMAN) : FAILED - Status 404
+2025-09-26 12:23:08 - INFO - Test_domINPUTspec - Checking pathway API with pwacc hsa05200
+2025-09-26 12:23:10 - ERROR - Test_domINPUTspec - Pathway API (hsa05200) : FAILED - Status 404
+2025-09-26 12:23:10 - INFO - Test_domINPUTspec - Checking taxonomy API with TaxID 9606
+2025-09-26 12:23:13 - INFO - Test_domINPUTspec - Taxonomy API (TaxID 9606) : PASSED
+2025-09-26 12:23:13 - INFO - Test_domINPUTspec - Checking cell API with accession HeLa
+2025-09-26 12:23:14 - INFO - Test_domINPUTspec - Cell API (HeLa) : PASSED
+2025-09-26 12:26:31 - INFO - Test_domINPUTspec - Checking compound API with CID 2244
+2025-09-26 12:26:33 - INFO - Test_domINPUTspec - Compound API (CID 2244) : PASSED
+2025-09-26 12:26:33 - INFO - Test_domINPUTspec - Checking substance API with SID 12345
+2025-09-26 12:26:35 - INFO - Test_domINPUTspec - Substance API (SID 12345) : PASSED
+2025-09-26 12:26:35 - INFO - Test_domINPUTspec - Checking assay API with AID 743122
+2025-09-26 12:26:37 - INFO - Test_domINPUTspec - Assay API (AID 743122) : PASSED
+2025-09-26 12:26:37 - INFO - Test_domINPUTspec - Checking gene API with GeneID 7157
+2025-09-26 12:26:39 - INFO - Test_domINPUTspec - Gene API (GeneID 7157) : PASSED
+2025-09-26 12:26:39 - INFO - Test_domINPUTspec - Checking protein API with accession P53_HUMAN
+2025-09-26 12:26:40 - ERROR - Test_domINPUTspec - Protein API (P53_HUMAN) : FAILED - Status 404
+2025-09-26 12:26:41 - INFO - Test_domINPUTspec - Checking pathway API with pwacc hsa05200
+2025-09-26 12:26:42 - ERROR - Test_domINPUTspec - Pathway API (hsa05200) : FAILED - Status 404
+2025-09-26 12:26:42 - INFO - Test_domINPUTspec - Checking taxonomy API with TaxID 9606
+2025-09-26 12:26:44 - INFO - Test_domINPUTspec - Taxonomy API (TaxID 9606) : PASSED
+2025-09-26 12:26:44 - INFO - Test_domINPUTspec - Checking cell API with accession HeLa
+2025-09-26 12:26:46 - INFO - Test_domINPUTspec - Cell API (HeLa) : PASSED

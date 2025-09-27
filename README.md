@@ -32,8 +32,10 @@ Install my-project with npm
  PUG_REST_PubChem/
   │── utils/
   │   ├── config.py
+  │   ├── logger.py
   │── reports/
-  │   ├── html/         # HTML reports
+  │   ├── html/       # HTML reports
+  |   ├── log/        # LOG reports
   │── tests/
   │── requirements.txt
   │── README.md

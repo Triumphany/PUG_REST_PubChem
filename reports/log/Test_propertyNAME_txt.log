@@ -1,0 +1,22 @@
+2025-09-26 13:00:28 - INFO - Test_propertyNAME_txt - Requesting MolecularWeight
+2025-09-26 13:00:29 - INFO - Test_propertyNAME_txt - MolecularWeight : PASSED
+2025-09-26 13:00:29 - INFO - Test_propertyNAME_txt - Requesting MolecularFormula
+2025-09-26 13:00:31 - INFO - Test_propertyNAME_txt - MolecularFormula : PASSED
+2025-09-26 13:00:31 - INFO - Test_propertyNAME_txt - Requesting CanonicalSMILES
+2025-09-26 13:00:33 - INFO - Test_propertyNAME_txt - CanonicalSMILES : PASSED
+2025-09-26 13:00:33 - INFO - Test_propertyNAME_txt - Requesting IsomericSMILES
+2025-09-26 13:00:35 - INFO - Test_propertyNAME_txt - IsomericSMILES : PASSED
+2025-09-26 13:00:35 - INFO - Test_propertyNAME_txt - Requesting InChI
+2025-09-26 13:00:37 - INFO - Test_propertyNAME_txt - InChI : PASSED
+2025-09-26 13:00:37 - INFO - Test_propertyNAME_txt - Requesting InChIKey
+2025-09-26 13:00:39 - INFO - Test_propertyNAME_txt - InChIKey : PASSED
+2025-09-26 13:00:39 - INFO - Test_propertyNAME_txt - Requesting IUPACName
+2025-09-26 13:00:40 - INFO - Test_propertyNAME_txt - IUPACName : PASSED
+2025-09-26 13:00:40 - INFO - Test_propertyNAME_txt - Requesting XLogP
+2025-09-26 13:00:42 - INFO - Test_propertyNAME_txt - XLogP : PASSED
+2025-09-26 13:00:42 - INFO - Test_propertyNAME_txt - Requesting TPSA
+2025-09-26 13:00:44 - INFO - Test_propertyNAME_txt - TPSA : PASSED
+2025-09-26 13:00:44 - INFO - Test_propertyNAME_txt - Requesting ExactMass
+2025-09-26 13:00:45 - INFO - Test_propertyNAME_txt - ExactMass : PASSED
+2025-09-26 13:00:45 - INFO - Test_propertyNAME_txt - Requesting Charge
+2025-09-26 13:00:47 - INFO - Test_propertyNAME_txt - Charge : PASSED

@@ -1,0 +1,22 @@
+2025-09-26 12:48:27 - INFO - Test_propertyCID_txt - Requesting MolecularWeight
+2025-09-26 12:48:29 - INFO - Test_propertyCID_txt - MolecularWeight : PASSED
+2025-09-26 12:48:29 - INFO - Test_propertyCID_txt - Requesting MolecularFormula
+2025-09-26 12:48:31 - INFO - Test_propertyCID_txt - MolecularFormula : PASSED
+2025-09-26 12:48:31 - INFO - Test_propertyCID_txt - Requesting CanonicalSMILES
+2025-09-26 12:48:33 - INFO - Test_propertyCID_txt - CanonicalSMILES : PASSED
+2025-09-26 12:48:33 - INFO - Test_propertyCID_txt - Requesting IsomericSMILES
+2025-09-26 12:48:34 - INFO - Test_propertyCID_txt - IsomericSMILES : PASSED
+2025-09-26 12:48:34 - INFO - Test_propertyCID_txt - Requesting InChI
+2025-09-26 12:48:36 - INFO - Test_propertyCID_txt - InChI : PASSED
+2025-09-26 12:48:36 - INFO - Test_propertyCID_txt - Requesting InChIKey
+2025-09-26 12:48:38 - INFO - Test_propertyCID_txt - InChIKey : PASSED
+2025-09-26 12:48:38 - INFO - Test_propertyCID_txt - Requesting IUPACName
+2025-09-26 12:48:39 - INFO - Test_propertyCID_txt - IUPACName : PASSED
+2025-09-26 12:48:39 - INFO - Test_propertyCID_txt - Requesting XLogP
+2025-09-26 12:48:41 - INFO - Test_propertyCID_txt - XLogP : PASSED
+2025-09-26 12:48:41 - INFO - Test_propertyCID_txt - Requesting TPSA
+2025-09-26 12:48:43 - INFO - Test_propertyCID_txt - TPSA : PASSED
+2025-09-26 12:48:43 - INFO - Test_propertyCID_txt - Requesting ExactMass
+2025-09-26 12:48:44 - INFO - Test_propertyCID_txt - ExactMass : PASSED
+2025-09-26 12:48:44 - INFO - Test_propertyCID_txt - Requesting Charge
+2025-09-26 12:48:46 - INFO - Test_propertyCID_txt - Charge : PASSED

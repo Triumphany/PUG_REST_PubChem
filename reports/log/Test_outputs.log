@@ -1,0 +1,12 @@
+2025-09-26 12:37:53 - INFO - Test_outputs - Requesting URL: https://pubchem.ncbi.nlm.nih.gov/rest/pug//compound/cid/2244/property/MolecularWeight/JSON
+2025-09-26 12:37:55 - INFO - Test_outputs - JSON response : PASSED
+2025-09-26 12:37:55 - INFO - Test_outputs - Requesting URL: https://pubchem.ncbi.nlm.nih.gov/rest/pug//compound/cid/2244/property/MolecularWeight/XML
+2025-09-26 12:37:57 - INFO - Test_outputs - XML response : PASSED
+2025-09-26 12:37:57 - INFO - Test_outputs - Requesting URL: https://pubchem.ncbi.nlm.nih.gov/rest/pug//compound/cid/2244/record/SDF
+2025-09-26 12:37:59 - INFO - Test_outputs - SDF response : PASSED
+2025-09-26 12:37:59 - INFO - Test_outputs - Requesting URL: https://pubchem.ncbi.nlm.nih.gov/rest/pug//compound/cid/2244/synonyms/TXT
+2025-09-26 12:38:00 - INFO - Test_outputs - TXT response : PASSED
+2025-09-26 12:38:00 - INFO - Test_outputs - Requesting URL: https://pubchem.ncbi.nlm.nih.gov/rest/pug//compound/cid/2244/synonyms/CSV (expecting failure)
+2025-09-26 12:38:02 - INFO - Test_outputs - CSV response : PASSED (negative test)
+2025-09-26 12:38:02 - INFO - Test_outputs - Requesting URL: https://pubchem.ncbi.nlm.nih.gov/rest/pug//compound/cid/2244/PNG
+2025-09-26 12:38:04 - INFO - Test_outputs - PNG response : PASSED

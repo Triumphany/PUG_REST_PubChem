@@ -1,63 +1,64 @@
 import requests
 import pytest
 import sys, os
+from utils.logger import get_log
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from utils import config
 
-
 class Test_propertyNAME_txt:
+    logger = get_log("Test_propertyNAME_txt")
+
+    def _log_request(self, url, property_name):
+        self.logger.info(f"Requesting {property_name}")
+        try:
+            response = requests.get(url)
+            assert response.status_code == 200
+            self.logger.info(f"{property_name} : PASSED")
+            print(response.text.strip())
+        except AssertionError:
+            self.logger.error(f"{property_name} : FAILED - Status {response.status_code}")
+            raise
 
     def test_getMolecularWeight_cid(self):
-        response = requests.get(f"{config.BASE_URL}/compound/name/water/property/MolecularWeight/txt")
-        assert response.status_code == 200
-        print(response.text.strip())
+        url = f"{config.BASE_URL}/compound/name/water/property/MolecularWeight/txt"
+        self._log_request(url, "MolecularWeight")
 
     def test_getMolecularFormula_cid(self):
-        response = requests.get(f"{config.BASE_URL}/compound/name/water/property/MolecularFormula/txt")
-        assert response.status_code == 200
-        print(response.text.strip())
+        url = f"{config.BASE_URL}/compound/name/water/property/MolecularFormula/txt"
+        self._log_request(url, "MolecularFormula")
 
     def test_getCanonicalSMILES_cid(self):
-        response = requests.get(f"{config.BASE_URL}/compound/name/water/property/CanonicalSMILES/txt")
-        assert response.status_code == 200
-        print(response.text.strip())
+        url = f"{config.BASE_URL}/compound/name/water/property/CanonicalSMILES/txt"
+        self._log_request(url, "CanonicalSMILES")
 
     def test_getIsomericSMILES_cid(self):
-        response = requests.get(f"{config.BASE_URL}/compound/name/water/property/IsomericSMILES/txt")
-        assert response.status_code == 200
-        print(response.text.strip())
+        url = f"{config.BASE_URL}/compound/name/water/property/IsomericSMILES/txt"
+        self._log_request(url, "IsomericSMILES")
 
     def test_getInChI_cid(self):
-        response = requests.get(f"{config.BASE_URL}/compound/name/water/property/InChI/txt")
-        assert response.status_code == 200
-        print(response.text.strip())
+        url = f"{config.BASE_URL}/compound/name/water/property/InChI/txt"
+        self._log_request(url, "InChI")
 
     def test_getInChIKey_cid(self):
-        response = requests.get(f"{config.BASE_URL}/compound/name/water/property/InChIKey/txt")
-        assert response.status_code == 200
-        print(response.text.strip())
+        url = f"{config.BASE_URL}/compound/name/water/property/InChIKey/txt"
+        self._log_request(url, "InChIKey")
 
     def test_getIUPACName_cid(self):
-        response = requests.get(f"{config.BASE_URL}/compound/name/water/property/IUPACName/txt")
-        assert response.status_code == 200
-        print(response.text.strip())
+        url = f"{config.BASE_URL}/compound/name/water/property/IUPACName/txt"
+        self._log_request(url, "IUPACName")
 
     def test_getXLogP_cid(self):
-        response = requests.get(f"{config.BASE_URL}/compound/name/water/property/XLogP/txt")
-        assert response.status_code == 200
-        print(response.text.strip())
+        url = f"{config.BASE_URL}/compound/name/water/property/XLogP/txt"
+        self._log_request(url, "XLogP")
 
     def test_getTPSA_cid(self):
-        response = requests.get(f"{config.BASE_URL}/compound/name/water/property/TPSA/txt")
-        assert response.status_code == 200
-        print(response.text.strip())
+        url = f"{config.BASE_URL}/compound/name/water/property/TPSA/txt"
+        self._log_request(url, "TPSA")
 
     def test_getExactMass_cid(self):
-        response = requests.get(f"{config.BASE_URL}/compound/name/water/property/ExactMass/txt")
-        assert response.status_code == 200
-        print(response.text.strip())
+        url = f"{config.BASE_URL}/compound/name/water/property/ExactMass/txt"
+        self._log_request(url, "ExactMass")
 
     def test_getCharge_cid(self):
-        response = requests.get(f"{config.BASE_URL}/compound/name/water/property/Charge/txt")
-        assert response.status_code == 200
-        print(response.text.strip())
+        url = f"{config.BASE_URL}/compound/name/water/property/Charge/txt"
+        self._log_request(url, "Charge")

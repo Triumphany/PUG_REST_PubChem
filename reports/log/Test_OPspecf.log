@@ -1,0 +1,52 @@
+2025-09-26 12:31:21 - INFO - Test_OPspecf - Checking compound API operation: record
+2025-09-26 12:31:23 - INFO - Test_OPspecf - Compound API operation record : PASSED
+2025-09-26 12:31:23 - INFO - Test_OPspecf - Checking compound API operation: property/MolecularWeight
+2025-09-26 12:31:25 - INFO - Test_OPspecf - Compound API operation property/MolecularWeight : PASSED
+2025-09-26 12:31:25 - INFO - Test_OPspecf - Checking compound API operation: synonyms
+2025-09-26 12:31:27 - INFO - Test_OPspecf - Compound API operation synonyms : PASSED
+2025-09-26 12:31:27 - INFO - Test_OPspecf - Checking compound API operation: sids
+2025-09-26 12:31:29 - INFO - Test_OPspecf - Compound API operation sids : PASSED
+2025-09-26 12:31:29 - INFO - Test_OPspecf - Checking compound API operation: cids
+2025-09-26 12:31:30 - INFO - Test_OPspecf - Compound API operation cids : PASSED
+2025-09-26 12:31:30 - INFO - Test_OPspecf - Checking compound API operation: aids
+2025-09-26 12:31:32 - INFO - Test_OPspecf - Compound API operation aids : PASSED
+2025-09-26 12:31:32 - INFO - Test_OPspecf - Checking compound API operation: assaysummary
+2025-09-26 12:31:35 - INFO - Test_OPspecf - Compound API operation assaysummary : PASSED
+2025-09-26 12:31:35 - INFO - Test_OPspecf - Checking compound API operation: classification
+2025-09-26 12:32:05 - INFO - Test_OPspecf - Compound API operation classification : PASSED
+2025-09-26 12:32:05 - INFO - Test_OPspecf - Checking compound API operation: description
+2025-09-26 12:32:07 - INFO - Test_OPspecf - Compound API operation description : PASSED
+2025-09-26 12:32:07 - INFO - Test_OPspecf - Checking compound API operation: conformers
+2025-09-26 12:32:08 - INFO - Test_OPspecf - Compound API operation conformers : PASSED
+2025-09-26 12:32:08 - INFO - Test_OPspecf - Checking substance API operation: record
+2025-09-26 12:32:10 - INFO - Test_OPspecf - Substance API operation record : PASSED
+2025-09-26 12:32:10 - INFO - Test_OPspecf - Checking substance API operation: synonyms
+2025-09-26 12:32:12 - INFO - Test_OPspecf - Substance API operation synonyms : PASSED
+2025-09-26 12:32:12 - INFO - Test_OPspecf - Checking substance API operation: sids
+2025-09-26 12:32:13 - INFO - Test_OPspecf - Substance API operation sids : PASSED
+2025-09-26 12:32:13 - INFO - Test_OPspecf - Checking substance API operation: cids
+2025-09-26 12:32:15 - INFO - Test_OPspecf - Substance API operation cids : PASSED
+2025-09-26 12:32:15 - INFO - Test_OPspecf - Checking substance API operation: aids
+2025-09-26 12:32:17 - ERROR - Test_OPspecf - Substance API operation aids : FAILED - Status 404
+2025-09-26 12:32:17 - INFO - Test_OPspecf - Checking assay API operation: record
+2025-09-26 12:32:19 - ERROR - Test_OPspecf - Assay API operation record : FAILED - Status 400
+2025-09-26 12:32:19 - INFO - Test_OPspecf - Checking gene API operation: summary
+2025-09-26 12:32:20 - INFO - Test_OPspecf - Gene API operation summary : PASSED
+2025-09-26 12:32:20 - INFO - Test_OPspecf - Checking gene API operation: aids
+2025-09-26 12:32:22 - INFO - Test_OPspecf - Gene API operation aids : PASSED
+2025-09-26 12:32:22 - INFO - Test_OPspecf - Checking gene API operation: concise
+2025-09-26 12:32:50 - INFO - Test_OPspecf - Gene API operation concise : PASSED
+2025-09-26 12:32:50 - INFO - Test_OPspecf - Checking gene API operation: pwaccs
+2025-09-26 12:32:52 - INFO - Test_OPspecf - Gene API operation pwaccs : PASSED
+2025-09-26 12:32:52 - INFO - Test_OPspecf - Checking protein API operation: summary
+2025-09-26 12:32:54 - ERROR - Test_OPspecf - Protein API operation summary : FAILED - Status 404
+2025-09-26 12:32:54 - INFO - Test_OPspecf - Checking pathway API operation: summary
+2025-09-26 12:32:56 - ERROR - Test_OPspecf - Pathway API operation summary : FAILED - Status 404
+2025-09-26 12:32:56 - INFO - Test_OPspecf - Checking taxonomy API operation: summary
+2025-09-26 12:32:57 - INFO - Test_OPspecf - Taxonomy API operation summary : PASSED
+2025-09-26 12:32:57 - INFO - Test_OPspecf - Checking taxonomy API operation: aids
+2025-09-26 12:33:00 - INFO - Test_OPspecf - Taxonomy API operation aids : PASSED
+2025-09-26 12:33:00 - INFO - Test_OPspecf - Checking cell API operation: summary
+2025-09-26 12:33:01 - INFO - Test_OPspecf - Cell API operation summary : PASSED
+2025-09-26 12:33:01 - INFO - Test_OPspecf - Checking cell API operation: aids
+2025-09-26 12:33:03 - INFO - Test_OPspecf - Cell API operation aids : PASSED

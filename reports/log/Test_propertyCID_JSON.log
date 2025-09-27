@@ -1,0 +1,22 @@
+2025-09-26 12:46:05 - INFO - Test_propertyCID_JSON - Requesting MolecularWeight
+2025-09-26 12:46:07 - INFO - Test_propertyCID_JSON - MolecularWeight : PASSED
+2025-09-26 12:46:07 - INFO - Test_propertyCID_JSON - Requesting MolecularFormula
+2025-09-26 12:46:08 - INFO - Test_propertyCID_JSON - MolecularFormula : PASSED
+2025-09-26 12:46:09 - INFO - Test_propertyCID_JSON - Requesting CanonicalSMILES
+2025-09-26 12:46:10 - INFO - Test_propertyCID_JSON - CanonicalSMILES : PASSED
+2025-09-26 12:46:10 - INFO - Test_propertyCID_JSON - Requesting IsomericSMILES
+2025-09-26 12:46:12 - INFO - Test_propertyCID_JSON - IsomericSMILES : PASSED
+2025-09-26 12:46:12 - INFO - Test_propertyCID_JSON - Requesting InChI
+2025-09-26 12:46:14 - INFO - Test_propertyCID_JSON - InChI : PASSED
+2025-09-26 12:46:14 - INFO - Test_propertyCID_JSON - Requesting InChIKey
+2025-09-26 12:46:15 - INFO - Test_propertyCID_JSON - InChIKey : PASSED
+2025-09-26 12:46:15 - INFO - Test_propertyCID_JSON - Requesting IUPACName
+2025-09-26 12:46:17 - INFO - Test_propertyCID_JSON - IUPACName : PASSED
+2025-09-26 12:46:17 - INFO - Test_propertyCID_JSON - Requesting XLogP
+2025-09-26 12:46:19 - INFO - Test_propertyCID_JSON - XLogP : PASSED
+2025-09-26 12:46:19 - INFO - Test_propertyCID_JSON - Requesting TPSA
+2025-09-26 12:46:21 - INFO - Test_propertyCID_JSON - TPSA : PASSED
+2025-09-26 12:46:21 - INFO - Test_propertyCID_JSON - Requesting ExactMass
+2025-09-26 12:46:22 - INFO - Test_propertyCID_JSON - ExactMass : PASSED
+2025-09-26 12:46:22 - INFO - Test_propertyCID_JSON - Requesting Charge
+2025-09-26 12:46:24 - INFO - Test_propertyCID_JSON - Charge : PASSED
